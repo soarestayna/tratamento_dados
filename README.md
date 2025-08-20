@@ -46,9 +46,9 @@ com foco em clareza, reprodutibilidade e aprendizado técnico.
 - Extração de informações de campos compostos (endereço, bairro, estado)
 - Validação de formatos e consistência semântica
 
----
 
-## 📜 Scripts Python
+
+## Scripts Python
 
 Além dos notebooks interativos, este repositório inclui scripts `.py` que replicam as etapas de tratamento de dados de forma automatizada.
 
@@ -66,7 +66,6 @@ Scripts disponíveis:
 - `4_inconsistencias.py` – validação e enriquecimento dos dados  
 - `estudos_lambda.py` – experimentos com funções lambda
 
----
 
 ## Componentes do Projeto
 
@@ -90,10 +89,30 @@ facilita a escalabilidade e a colaboração.
 
 ## Como usar este repositório
 
-Todos os notebooks estão organizados por módulo e podem ser executados 
-individualmente em ambiente Jupyter.  
-Os arquivos `.csv` gerados estão incluídos ou podem ser
-reproduzidos com os scripts disponíveis.
+
+Este repositório foi estruturado para facilitar o aprendizado.
+
+Você pode explorá-lo de duas formas:
+
+#### Notebooks
+Os notebooks estão organizados por etapas e podem ser executados individualmente em ambiente Jupyter. 
+Cada um contém explicações detalhadas, células comentadas e exemplos práticos.
+
+#### Scripts Python
+Os scripts `.py` replicam o conteúdo dos notebooks de forma automatizada.
+
+Para executar:
+
+```
+python scripts/2_limpeza_dados.py 
+```
+Os arquivos .csv utilizados e gerados estão na pasta data/, e podem ser reproduzidos conforme o fluxo de tratamento.
+Requisitos
+Antes de executar os scripts, instale as dependências:
+```
+pip install -r requirements.txt
+```
+
 
 ---
 
