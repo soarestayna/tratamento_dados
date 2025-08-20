@@ -48,6 +48,26 @@ com foco em clareza, reprodutibilidade e aprendizado técnico.
 
 ---
 
+## 📜 Scripts Python
+
+Além dos notebooks interativos, este repositório inclui scripts `.py` que replicam as etapas de tratamento de dados de forma automatizada.
+
+Esses scripts são úteis para:
+
+- Executar o pré-processamento em ambientes fora do Jupyter
+- Integrar o tratamento de dados em pipelines ou aplicações
+- Reutilizar funções e lógicas de limpeza com maior eficiência
+
+Scripts disponíveis:
+
+- `1_tratamento_dados.py` – leitura e inspeção inicial  
+- `2_limpeza_dados.py` – limpeza e padronização  
+- `3_outliers.py` – detecção e remoção de outliers  
+- `4_inconsistencias.py` – validação e enriquecimento dos dados  
+- `estudos_lambda.py` – experimentos com funções lambda
+
+---
+
 ## Componentes do Projeto
 
 - `pandas` – manipulação de dados tabulares  
