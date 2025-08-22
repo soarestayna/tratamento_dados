@@ -48,7 +48,7 @@ com foco em clareza, reprodutibilidade e aprendizado técnico.
 
 
 
-## Scripts Python
+## Conteúdo dos Scripts Python
 
 Além dos notebooks interativos, este repositório inclui scripts `.py` que replicam as etapas de tratamento de dados de forma automatizada.
 
